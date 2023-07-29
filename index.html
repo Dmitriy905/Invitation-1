@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="page">
+            <section class="page-bg">
+                <div class="page-bg__image"><img src="img/bg.jpg" alt=""></div>
+                <div class="page-bg__name _anim-items _anim-no-hide">Алексей <br>
+                    и <br>
+                    Елена</div>
+                <div class="page-bg__date _anim-items _anim-no-hide">02.09.2022г.</div>
+            </section>
+            <div class='page__container _container'>
+                <section class="about-us">
+                    <div class="about-us__title title _anim-items _anim-no-hide">О нас</div>
+                    <div class="about-us__text _anim-items _anim-no-hide">
+                        Наша встреча была случайной! Однажды мы отдыхали в компании общих друзей и тут я увидел её. Мы
+                        общались весь вечер, много общались и не могли отвести взгляд друг от друга.
+                        На следующий день я решился сделать первый шаг, и позвонил ей...... и почувствовал её прекрасную
+                        улыбку. С тех пор, на протяжении 5 лет её улыбка у меня в сердце!
+                        За это время у нас произошло столько всего хорошего и поэтому нам бы хотелось приумножать наше
+                        счастье и дальше!
+                    </div>
+                </section>
+                <section class="place">
+                    <span class="decor"></span>
+                    <div class="place__title title _anim-items _anim-no-hide">Место торжества</div>
+                    <div class="place__row">
+                        <div class="place__column">
+                            <div class="place__item">
+                                <div class="place__place _anim-items _anim-no-hide">Роспись</div>
+                                <div class="place__name _anim-items _anim-no-hide">Царицинский отдел ЗАГС</div>
+                                <div class="place__address _anim-items _anim-no-hide">Адрес: г.Москва, ул.Кантемировская д.9</div>
+                                <a href="https://yandex.ru/maps/213/moscow/house/kantemirovskaya_ulitsa_9/Z04YcABhTUUPQFtvfXpyd31iYw==/?from=tabbar&ll=37.671409%2C55.636118&source=serp_navig&z=17"
+                                    target="_blank" class="place__btn btn _anim-items _anim-no-hide">Посмотреть на карте</a>
+                            </div>
+                        </div>
+                        <div class="place__column">
+                            <div class="place__item">
+                                <div class="place__place _anim-items _anim-no-hide">Праздничный ужин</div>
+                                <div class="place__name _anim-items _anim-no-hide">Ресторан “Согласие Hall”</div>
+                                <div class="place__address _anim-items _anim-no-hide">Адрес: г.Москва, проспект Мира, д.36</div>
+                                <a href="https://yandex.ru/maps/213/moscow/house/prospekt_mira_36s1/Z04YcARjSkEAQFtvfXt2eH5nYg==/?from=tabbar&indoorLevel=1&ll=37.633346%2C55.779246&source=serp_navig&z=17.42"
+                                    target="_blank" class="place__btn btn _anim-items _anim-no-hide">Посмотреть на карте</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="survey">
+                    <div class='survey__container _container'>
+                        <div class="survey__title title _anim-items _anim-no-hide">Опрос</div>
+                        <form class="survey__form _goto-error" action="">
+                            <div class="survey__subtitle _anim-items _anim-no-hide">Ваше имя и фамилия</div>
+                            <div class="survey__item">
+                                <input type="text" name="form[name]" data-value="Ф.И.О" class="input _req">
+                            </div>
+                            <div class="survey__row _anim-items _anim-no-hide">
+                                <div class="survey__block">
+                                    <div class="survey__item">
+                                        <input id="redio-yes" checked type="radio" name="form[presence]" data-value=""
+                                            class="input-radio">
+                                        <label for="redio-yes" class="radio__label">Присутствие подтверждаю</label>
+
+                                        <input id="radio-no" type="radio" name="form[presence]" data-value=""
+                                            class="input-radio">
+                                        <label for="radio-no" class="radio__label">К сожалению, не смогу быть</label>
+                                    </div>
+                                </div>
+                                <div class="survey__block">
+                                    <div class="survey__item">
+                                        <input id="redio-red-wine" type="radio" name="form[drink]" data-value=""
+                                            class="input-radio">
+                                        <label for="redio-red-wine" class="radio__label">Вино красное</label>
+
+                                        <input id="radio-white-wine" type="radio" name="form[drink]" data-value=""
+                                            class="input-radio">
+                                        <label for="radio-white-wine" class="radio__label">Вино белое</label>
+
+                                        <input id="radio-whiskey" type="radio" name="form[drink]" data-value=""
+                                            class="input-radio">
+                                        <label for="radio-whiskey" class="radio__label">Виски</label>
+
+                                        <input id="radio-no-alco" type="radio" name="form[drink]" data-value=""
+                                            class="input-radio">
+                                        <label for="radio-no-alco" class="radio__label">Безалкогольное</label>
+                                    </div>
+                                </div>
+                                <div class="survey__block">
+                                    <div class="survey__item">
+                                        <input id="radio-beef" type="radio" name="form[dish]" data-value=""
+                                            class="input-radio">
+                                        <label for="radio-beef" class="radio__label">Говядина</label>
+
+                                        <input id="radio-lamb" type="radio" name="form[dish]" data-value=""
+                                            class="input-radio">
+                                        <label for="radio-lamb" class="radio__label">Ягненок</label>
+
+                                        <input id="radio-turkey" type="radio" name="form[dish]" data-value=""
+                                            class="input-radio">
+                                        <label for="radio-turkey" class="radio__label _req">Индейка</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="form__btn btn _anim-items _anim-no-hide"><span>Отправить</span></button>
+                        </form>
+                    </div>
+                </section>
+                <section class="wishes">
+                    <div class="wishes__title title _anim-items _anim-no-hide">Пожелания</div>
+                    <div class="wishes__row">
+                        <div class="wishes__column">
+                            <div class="wishes__text _anim-items _anim-no-hide">
+                                <p>Для нас главное - Ваше присутствие! Но мы будем рады, если в своих нарядах Вы
+                                    поддержите цветовую гамму нашей свадьбы!</p>
+                                <p>Просим Вас не дарить нам цветы. Купите вместо них мягкие игрушки - после праздничных
+                                    торжеств мы отвезем их в детский дом!</p>
+                            </div>
+                        </div>
+                        <div class="wishes__column">
+                            <div class="wishes__block">
+                                <div class="wishes__colour">
+                                    <img src="img/wishes01.png" alt="">
+                                </div>
+                                <div class="wishes__colour">
+                                    <img src="img/wishes02.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="contacts">
+                    <div class="contacts__title title _anim-items _anim-no-hide">Контакты</div>
+                    <div class="contacts__row">
+                        <a href="tel:795686678728" class="contacts__items _anim-items _anim-no-hide">Алексей:<span>+ 7 956 866 78 78</span></a>
+                        <a href="tel:795686665221" class="contacts__items _anim-items _anim-no-hide">Елена:<span>+ 7 956 866 652 21</span></a>
+                    </div>
+                    <a href="tel:79568667878" class="contacts__item _anim-items _anim-no-hide">Наш свадебный организатор Алёна:<span>+ 7 956 866
+                            78 78</span></a>
+                    <div class="contacts__icons _anim-items _anim-no-hide">
+                        <a href=""><img src="img/whatsapp.png" alt=""></a>
+                        <a href=""><img src="img/vk.png" alt=""></a>
+                        <a href=""><img src="img/telegram.png" alt=""></a>
+                    </div>
+                </section>
+            </div>
+
+        </main>
+    </div>
+    <script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+</body>
+
+</html>
